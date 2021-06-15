@@ -26,7 +26,9 @@ function Home() {
 
   return (
 
-    <div>
+    <div className='op'>
+      <h1 style={{textAlign:'center'}}>GROOTAN Technologies</h1>
+      
    <TableContainer component={Paper}>
       <Table  aria-label="simple table">
         <TableHead>
@@ -56,7 +58,10 @@ function Home() {
     
         </TableBody>
       </Table>
+     <br></br>
+     
     </TableContainer>
+    
     </div>
   );
 }

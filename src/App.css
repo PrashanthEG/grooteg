@@ -1,11 +1,12 @@
 @import url("https://fonts.googleapis.com/css?family=Nunito:600,700&display=swap");
+
 * {
   box-sizing: border-box;
 }
 
 body {
   font-family: Nunito, Roboto, Arial, sans-serif;
-  background: #89bdd4;
+  background: #ADD8E6;
   height: 100vh;
 }
 a
@@ -14,9 +15,48 @@ text-decoration: none;
 color: inherit;
 
 }
+.op{
+  box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+  transition: 0.3s;
+  width: auto;
+  height: auto;
+  margin-top: 10px;
+  border-radius: 20px;
+  background: linear-gradient(to top, #ADD8E6 55%, #ffffff 103%);
+}
+.card {
+  box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+  transition: 0.3s;
+  width: 80%;
+  height: 90%;
+  margin-top: 10px;
+  border-radius: 20px;
+  background: linear-gradient(to top, #ADD8E6 55%, #ffffff 103%);
+}
+.card img{
+  width:50%;
+  margin-left: auto;
+  margin-right: auto;
+  display: block;
+}
+.container img{
+  width:25%;
+  margin-left: auto;
+  margin-right: auto;
+  display: block;
+}
+
+.card:hover {
+  box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
+}
+
+.contain {
+  padding: 2px 16px;
+}
 h1,p
 {
-color: #fff;
+color: rgb(10, 10, 10);
+font-family: "Times New Roman", Times, serif;
 }
 
 
@@ -41,13 +81,7 @@ color: #fff;
   overflow: hidden;
 }
 
-.header-headings {
-  /* display: flex; */
-  /* flex-direction: column;
-  position: absolute;
-  width: 100%; */
-  
-}
+
 .header-headings > span {
   margin: 10px 0;
 }
@@ -55,6 +89,7 @@ color: #fff;
   color: #000;
 
 }
+
 
 .options {
   display: flex;
@@ -89,7 +124,7 @@ color: #fff;
 .account-form {
   display: flex;
   flex-direction: column;
-  margin-top: 30px;
+  margin-top: 20px;
 }
 
 .account-form-fields {

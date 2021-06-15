@@ -1,13 +1,17 @@
 
 import React from 'react'
 import Form from '../components/Form'
+import logo from './ig.png';
 function Login () {
 	const [option, setOption] = React.useState(1)
 	
 	return (
+		
 		<div className='container'>
+			<img src={logo} alt="Logo" />
+			<h1>Grootan Technologies</h1>
 			<header>
-				<div>
+				<div className='color'>
                     {option===1 && 
 					<span>Sign in to your account</span>}
 					{option===2 && <span>Create an account</span>}
